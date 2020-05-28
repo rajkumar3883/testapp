@@ -11,9 +11,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    publi onview(Bundle savedInstanceState){
-        System.out.print("Hey Raj");
-        // comment added for to do
-        //cdkkjf nenneengit ghgfhgfhfg
-    }
+
 }
