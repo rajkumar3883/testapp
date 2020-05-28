@@ -32,7 +32,7 @@ jobs:
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('.github/Gemfile') }} # change your gemfile path
+        key: ${{ runner.os }}-gems-${{ hashFiles('ssh@githib.com/tosbourn/my_gem') }} # change your gemfile path
         restore-keys: |
           ${{ runner.os }}-gems-
     - uses: MeilCli/danger-action@v4
