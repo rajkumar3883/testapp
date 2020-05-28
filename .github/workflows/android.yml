@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-
+    name: Build with Gradle
     runs-on: ubuntu-latest
 
     steps:
@@ -19,3 +19,18 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
+
+
+  danger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - uses: MeilCli/danger-action@v4
+        with:
+          danger_file: 'https://github.com/MeilCli/danger-action/blob/master/Dangerfile'
+          danger_id: 'danger-pr'
+        env:
+          DANGER_GITHUB_API_TOKEN: ${{ secrets.git_token }}
