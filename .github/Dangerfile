@@ -1,4 +1,3 @@
-eslint.config_file = ".eslintrc.json"
-eslint.target_extensions = [".ts"]
-eslint.filtering = true
-eslint.lint
+android_lint.filtering = true
+android_lint.skip_gradle_task = true
+android_lint.lint(inline_mode: true)
