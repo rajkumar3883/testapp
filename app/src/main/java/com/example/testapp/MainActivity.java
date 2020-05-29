@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void viewnewscreens(){
         private int newgg;
-        public string name;
+        public stringg name;
         setContentView(R.layout.activity_main);
     }
 
