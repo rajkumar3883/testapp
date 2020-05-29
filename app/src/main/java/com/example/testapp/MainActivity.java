@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void viewnewscreens(){
+        private int newgg;
+        public string name;
         setContentView(R.layout.activity_main);
     }
 
