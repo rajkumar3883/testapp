@@ -1,3 +1,6 @@
-android_lint.filtering = true
+# AndroidLint
+android_lint.report_file = "<project_name>/build/reports/lint-result.xml"
 android_lint.skip_gradle_task = true
+android_lint.filtering = true
+android_lint.severity = "Error"
 android_lint.lint(inline_mode: true)
