@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public void viewnewscreens(){
         private int newgg;
         public stringg name;
+        gfjgjhjk kjkh k hlkhl onKeyLongPress()
         setContentView(R.layout.activity_main);
     }
 
