@@ -1,5 +1,5 @@
 # AndroidLint
-android_lint.report_file = "<project_name>/build/reports/lint-result.xml"
+android_lint.report_file = ".github/lint-result.xml"
 android_lint.skip_gradle_task = true
 android_lint.filtering = true
 android_lint.severity = "Error"
