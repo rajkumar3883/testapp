@@ -1,10 +1,7 @@
-eslint.config_file = ".eslintrc.json"
-eslint.target_extensions = [".ts"]
-eslint.filtering = true
-eslint.lint
+# AndroidLint
+android_lint.report_file = ".github/lint-result.xml"
+android_lint.skip_gradle_task = true
+android_lint.filtering = true
+android_lint.severity = "Warning"
+android_lint.lint(inline_mode: true)
 
-Ajay Kumar
-rajkumar3883@gmail.com
-
-1652, Eternia Tower, Mahagun Moderne
-Sector-78, Noida -201301
