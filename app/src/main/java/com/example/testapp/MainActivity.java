@@ -5,17 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-
+    private int i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void viewnewscreens(){
-        private int newgg;
-        public stringg name;
-        gfjgjhjk kjkh k hlkhl onKeyLongPress()
+    public void onView(){
+        i=19;
+        networkRequest();
         setContentView(R.layout.activity_main);
-    }
 
-}
+    }
+    public void networkRequest(){
+
+    }
+  }
