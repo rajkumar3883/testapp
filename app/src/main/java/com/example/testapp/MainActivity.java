@@ -20,4 +20,16 @@ public class MainActivity extends AppCompatActivity {
     public void networkRequest(){
 
     }
+    public void networkRequest2(){
+
+    }
+    public void networkRequest3(){
+
+    }
+    public void networkRequest4(){
+
+    }
+    public void networkRequest5(){
+
+    }
   }
