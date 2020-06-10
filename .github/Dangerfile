@@ -3,7 +3,7 @@
 #android_lint.lint_all_files = true
 #android_lint.lint_files
 # AndroidLint
-android_lint.report_file = "/home/runner/work/testapp/testapp/.github/lint-results.xml"
+android_lint.report_file = ".github/lint-results.xml"
 android_lint.skip_gradle_task = true
 android_lint.filtering = false
 android_lint.severity = "Warning"
