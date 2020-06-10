@@ -28,6 +28,12 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
+      - uses: actions/cache@v1
+        with:
+         path: vendor/bundle
+         key: ${{ runner.os }}-gems-${{ hashFiles('.github/Gemfile') }} # change your gemfile path
+         restore-keys: |
+          ${{ runner.os }}-gems-
       - uses: MeilCli/danger-action@v4
         with:
          plugins_file: '.github/Gemfile'
