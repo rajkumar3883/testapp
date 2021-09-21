@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public newtestfun(){
-    
+      val i=10;
+        if(i<11){
+        }
     }
     public void networkRequest(){
 
