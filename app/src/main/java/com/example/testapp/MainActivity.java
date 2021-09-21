@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+    public newtestfun(){
+    
+    }
     public void networkRequest(){
 
     }
